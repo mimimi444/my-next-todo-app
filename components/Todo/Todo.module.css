@@ -1,0 +1,27 @@
+
+.todoIncomplete {
+    background-color: transparent;
+}
+
+.add, .complete {
+    background-color: var(--color-secondary)
+}
+
+.todoInput form {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: .5rem;
+}
+.todoIncomplete li div {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    gap: .5rem;
+    padding: .5rem;
+}
+.todoComplete li div {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    column-gap: .5rem;
+    padding: .5rem;
+
+}

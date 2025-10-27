@@ -1,0 +1,58 @@
+:root {
+  --body-font-size: 16px;
+  --color-primary:#ade5de;
+  --color-secondary: #ffd66e;
+  --color-danger: #e21b1b;
+  --color-safe: #16946e;
+  --color-text: #333;
+  --border: 2px solid var(--color-primary);
+  --border-radius: 8px;
+  --padding: 1rem;
+}
+body {
+  color: var(--color-text);
+}
+main {
+  margin: auto;
+  width: 90%;
+  max-width: 600px;
+  display: grid;
+  row-gap: 1rem;
+}
+
+section {
+  background-color: var(--color-primary);
+  border:  var(--border);
+  border-radius: var(--border-radius);
+  padding: var(--padding);
+}
+
+p {
+  margin: 0;
+}
+
+input[type="text"] {
+  border: none;
+  padding: .5rem;
+  border-radius: .25rem;
+}
+input[type="text"]:focus {
+  border-color: var(--color-secondary);
+}
+button {
+  display: block;
+  border: none;
+  border-radius: .25rem;
+  background-color: #ddd;
+  transition: all .5s;
+}
+button:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+input {
+  display: block;
+}
+ul {
+  list-style-type: disc;
+}
